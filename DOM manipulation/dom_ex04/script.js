@@ -3,9 +3,10 @@ const update = document.querySelector("#update")
 
 update.addEventListener('click',()=>{
 	//cria um item novo
-	const lastItem = priceList.lastElementChild;
-	if(lastItem){
-		lastItem.remove()
-	}
+	const newItem = document.createElement("li");
+	newItem.className = "item";
+	newItem.innerHTML = "Eggs <span>$3.50</span">
 	
-});
+	//insere o novo item na lista
+	priceList.appendChild(newItem);
+})
