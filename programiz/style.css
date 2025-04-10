@@ -1,0 +1,40 @@
+/*reset the default browser*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.courses-container{
+	background-color:#fff5e7;
+	padding:32px;
+	font-family:"Euclid Circular A", sans-serif;
+}
+.course-card {
+	background-color: #fff;
+	padding:32px 16px;
+	margin:16px;
+	border-radius: 8px;
+	display: inline-block;
+	text-align:center;
+	border:1px solid #ddd;
+	width:240px;
+}
+/* Seção para estilizar os títulos */
+.courses-title{
+	color:#25265e;
+	font-size:24px;
+	margin-bottom:16px;
+}
+.course-title {
+	font-size:18px;
+	color:#25265e;
+	margin-bottom:12px;
+	text-align:left;
+	font-weigth:bold;
+}
+/* estilizando as imagens*/
+.course-image{
+	width:160px;
+	height:auto;
+	margin-bottom:16px;
+}
