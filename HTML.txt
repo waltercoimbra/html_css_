@@ -9,3 +9,9 @@ listas de definição:
 	<dd>Linguagem de marcação para a criação do design de um site</dd>
 
 </dl>
+links
+<a href="xxx" target="_blank" rel="external">xxx</a>
+<a href="yyy" target="_self" rel="next" ou "prev"> YYY </a>
+
+<a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a>
+<a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a>
