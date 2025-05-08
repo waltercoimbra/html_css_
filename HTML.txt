@@ -15,3 +15,58 @@ links
 
 <a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a>
 <a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a>
+
+começo=================================
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale="1.0"/>
+
+<meta name="description" 
+content="Learn HTML, CSS, and JavaScript with our beginner-friendly tutorials."
+/>
+<meta name="keywords" content="HTML, CSS, JavaScript, Web development"/>
+=========================================================
+==========================================================
+ 
+copiar um trecho no vscode - shift+alt + seta para baixo.
+mover trechos alt+seta para baixo ou para cima.
+selecionar vários objetos ctrl + d.
+
+ctrl+shift+p => Open command Pallete
+ctrl+b => Toggle Explorer
+ctrl+j=> Toggle Terminal
+ctrl+f=> Search in file
+=========================================================
+<strong></strong>
+<em></em>
+<mark></mark>
+<del></del>
+<ins></ins>
+<sub></sub>
+<sup></sup>
+========================================
+<img src="" alt="nome da imagem/>
+
+<br /> <hr />
+<pre></pre>
+<code></code>
+====================
+HTML Entities
+&gt; >
+&lt; <
+&amp; &
+&quot; "
+&apos; '
+&nbsp; space
+&reg; sinal de registro
+&copy; copyright
+&trade; 
+&deg; ° graus
+
+========================
+<heade> Header of the layout
+<footer> footer of the layout
+<nav> Navigation area
+<main> The main contente area
+<article> Publication area
+<section> Grouped area
+<aside> Side/secondary content
