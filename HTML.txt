@@ -75,4 +75,26 @@ HTML Entities
 checkbox, radio, file, submit, range, color
 ----------------------------------------------
 <button type="submit">Enviar</button>
+----------------------------------------
+<input type="text" name="name" placeholder="Enter name" required min="4" max="20" disable />
+---------------------------
+<select name="product" id="product" multiple size="3">
+<option value="iphone">iPhone</option>
+<option value="imac" selected>iMac</option>
+</select>
+--------------------------------------
+<textarea name="message" id="message" rows="10" cols="40">
+</textarea>
+---------------------------------------
+checkbox
+----------------------------------------
+<label for="html">
+	<input type="checkbox" name="languages" id="html" value="html" disabled /> HTML
+</label>
+-------------------------------------------
+radio
+-----------------------------------------
+<label for="small">
+		<input type="radio" name="size" id="small" value="small" checked>Small
+</label>
 
