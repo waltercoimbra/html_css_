@@ -69,4 +69,10 @@ HTML Entities
 <main> The main contente area
 <article> Publication area
 <section> Grouped area
-<aside> Side/secondary content
+<aside> Side/secondary contente
+===============================
+<input> type=> text, email, password, number, textarea, select, date
+checkbox, radio, file, submit, range, color
+----------------------------------------------
+<button type="submit">Enviar</button>
+
