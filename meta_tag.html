@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+	<title>HTML </title>
+</head>
+<body>
+
+	<form>
+	<select name="product" id="product" multiple size="4">
+		<option value="iphpne">iPhone</option>
+		<option value="imac" selected>iMac</option>
+		<option value="macbook">Macbook</option>
+		<option value="macbook-pro">Macbook Pro</option>
+	</select>
+	<br>
+	<br>
+	<label for="message">Message</label>
+	<br>
+	<textarea name="message" id="message" rows="10" cols="40" placeholder="Digite sua mensagem">
+	</textarea>
+	<br>
+	<input type="submit" value="Submit" />
+
+	</form>
+	<h1>Favorit Progamming Languages</h1>
+	<form>
+	<label for="html">
+		<input type="checkbox" name="languages" id="html" value="html" disabled /> HTML
+	</label>
+	<label for="css">
+		<input type="checkbox" name="languages" id="css" value="css" checked />CSS
+	</label>
+	<label for="javascript">
+		<input type="checkbox" name="languages" id="javascript" value="javascript" checked />javaScript
+	</label>
+	</form>
+	<h2>Product Size</h2>
+	<form>
+		<label for="small">
+			<input type="radio" name="size" id="small" value="small" checked>Small
+		</label>
+		<label for="medium">
+			<input type="radio" name="size" id="medium" value="medium">Medium
+		</label>
+		<label for="large">
+			<input type="radio" name="size" id="large" value="large">Large
+		</label>
+	</form>
+	<h2>Color</h2>
+	<form>
+		<div>
+			<label for="color">Color</label>
+			<input type="color" name="color" id="color" />
+		</div>
+		<div>
+			<label for="date">Date</label>
+			<input type="date" name="date" id="date">
+		</div>
+	    <div>
+			<label for="time">Time</label>
+			<input type="time" name="time" id="time">
+		</div>
+		<div>
+			<label for="week">Semana</label>
+			<input type="week" name="week" id="week">
+		</div>
+		<div>
+			<label for="mes">Mês</label>
+			<input type="month" name="mes" id="mes">
+		</div>
+		<div>
+			<label for="range">Quantidade</label>
+			<input type="range" name="range" id="range" min="0" max="100" step="1">
+		</div>
+		<div>
+			<label for="url">URL</label>
+			<input type="url" name="url" id="url">
+			
+		</div>
+	</form>
+	<h2>Datalist</h2>
+	<label for="favLanguage">Linguagens Favoritas de Programação</label>
+	<input list="languages" id="favLanguage" name="favLanguage">
+	<datalist id="languages">
+		<option value="JavaScript"></option>
+		<option value="PHP"></option>
+		<option value="Python"></option>
+		<option value="Ruby"></option>
+		<option value="C"></option>
+		<option value="C#"></option>
+	</datalist>
+	<h2>Time</h2>
+	<input type="time" list="popularHours">
+	<datalist id="popularHours">
+		<option value="10:00"></option>
+		<option value="11:00"></option>
+		<option value="12:00"></option>
+	</datalist>
+	<h2>Quantidade</h2>
+	<label for="tick">Tip Amount</label>
+	<input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100">
+	<br><br>
+	<datalist id="tickmarks">
+		<option value="0"></option>
+		<option value="10"></option>
+		<option value="20"></option>
+		<option value="30"></option>
+		<option value="40"></option>
+		<option value="50"></option>
+		<option value="60"></option>
+		<option value="70"></option>
+		<option value="80"></option>	
+		<option value="90"></option>
+		<option value="100"></option>
+	</datalist>
+	<h2>Escolha uma cor</h2>
+	<label for="colors">Pick a color</label>
+	<input type="color" name="colors" id="colors" list="redColors">
+	<datalist id="redColors">
+		<option value="#800000"></option>
+		<option value="#8B0000"></option>
+		<option value="#A52A2A"></option>
+		<option value="#DC143C"></option>
+	</datalist>
+	<h2>Audios</h2>
+	<!--<audio src="song1.mp3" type="audio/mp3" controls></audio> 
+	<audio controls>
+		<source src="./song1.mp3" type="audio/mp3">
+		<p>Your browser does not support the audio element</p>
+	</audio>
+	
+	<audio src="song1.mp3" autoplay controls></audio>-->
+	<figure>
+		<figcaption>Listen to the song:</figcaption>
+		<audio src="song1.mp3" controls></audio><br>
+		<a href="song.mp3">Download Audio</a>
+	</figure>
+	
+</body>
+</html>

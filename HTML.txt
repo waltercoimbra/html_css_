@@ -97,4 +97,58 @@ radio
 <label for="small">
 		<input type="radio" name="size" id="small" value="small" checked>Small
 </label>
+-----------------------------------------
+Color
+--------------------------------------- 
+=======================================
+DATALIST
+=======================================
+<h2>Datalist</h2>
+	<label for="favLanguage">Linguagens Favoritas de Programação</label>
+	<input list="languages" id="favLanguage" name="favLanguage">
+	<datalist id="languages">
+		<option value="JavaScript"></option>
+		<option value="PHP"></option>
+		<option value="Python"></option>
+		<option value="Ruby"></option>
+		<option value="C"></option>
+		<option value="C#"></option>
+	</datalist>
+	<h2>Time</h2>
+	<input type="time" list="popularHours">
+	<datalist id="popularHours">
+		<option value="10:00"></option>
+		<option value="11:00"></option>
+		<option value="12:00"></option>
+	</datalist>
+	<h2>Quantidade</h2>
+	<label for="tick">Tip Amount</label>
+	<input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100">
+	<br><br>
+	<datalist id="tickmarks">
+		<option value="0"></option>
+		<option value="10"></option>
+		<option value="20"></option>
+		<option value="30"></option>
+		<option value="40"></option>
+		<option value="50"></option>
+		<option value="60"></option>
+		<option value="70"></option>
+		<option value="80"></option>	
+		<option value="90"></option>
+		<option value="100"></option>
+	</datalist>
+	<h2>Escolha uma cor</h2>
+	<label for="colors">Pick a color</label>
+	<input type="color" name="colors" id="colors" list="redColors">
+	<datalist id="redColors">
+		<option value="#800000"></option>
+		<option value="#8B0000"></option>
+		<option value="#A52A2A"></option>
+		<option value="#DC143C"></option>
+	</datalist>
+==========================================================
+AUDIOS
+===========================================================
+<audio src="./song1.mp3" type="audio/mp3" controls>
 

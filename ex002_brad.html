@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+</head>
+<body>
+	<header>
+		<h1>Apartament Search</h1>
+	</header>
+	<main>
+		<form>
+			<div><label for="endereco">Localização</label>
+			<input type="text" name="endereco" id="endereco"></div>
+			<br>
+			<div><label for="valor">Valor Mensal:</label>
+			<input type="range" name="valor" id="valor" min="0" max="100" step="10">
+			</div>
+			<br>
+			<div>
+				<label for="quartos">Número de Quartos</label>
+				<input type="number" name="quartos" id="quartos">
+			</div>
+			<br>
+			<div>
+				<label for="banheiro">Número de banheiros</label>
+				<input type="number" name="banheiro" id="banheiro">
+			</div>
+			<br>
+			<div>
+			
+				<label for="pets">Animais de estimação</label>
+				<select name="pets" id="pets">
+				<option name="pemitido">Permitido</option>
+				<option name="nopets">Não é permitido</option>
+				</select>
+			</div>
+			<br>
+			<div>
+			<label for="data">Data para olhar</label>
+			<input type="date" name="data" id="data">
+			</div>
+			<br>
+			<div>
+			<input type="submit" value="Enviar">
+			</div>
+			
+		</form>
+	</main>
+	
+</body>
+</html>
