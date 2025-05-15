@@ -1,3 +1,30 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Tahoma', sans-serif;
+  background-color:#fff;
 }
+/* Color names */
+.sporty{
+	color:rebeccapurple;
+}
+
+/* Hex Values */
+.casual {
+	color:#e04553;
+}
+
+/* RGB */
+
+.formal {
+	color:rgb(0,100,100);
+}
+
+/* RGBA */
+.card {
+	background-color:rgba(0,0,0,0.5);
+}
+.card-2 {
+	background:#000;
+	color:#fff;
+	opacity:0.6;
+}
+
