@@ -1,3 +1,18 @@
 body {
   font-family: Arial, sans-serif;
 }
+.display-el {
+	display:none;
+}
+.hidden-el {
+	visibility:hidden;
+}
+a {
+	display:inline-block;
+	border:solid 3px blue;
+	background:lightblue;
+	padding:10px;
+	margin:20px 10px;
+	width:200px;
+	height:100px;
+}
