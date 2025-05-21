@@ -64,3 +64,9 @@ body {
 .card-sporty {
 	background: #fff url('./images/sporty.png') no-repeat center right/200px;
 }
+.card-casual {
+	background: #fff url('./images/casual.png') no-repeat center right/200px;
+}
+.card-formal {
+	background: #fff url('./images/formal.png') no-repeat center right/200px;
+}
