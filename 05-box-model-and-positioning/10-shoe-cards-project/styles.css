@@ -18,4 +18,49 @@ body {
 	margin: 20px 0;
 	padding: 20px 20px 30px;
 	border-radius:10px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+}
+.card h2 {
+	font-size: 27px;
+	margin-bottom: 20px;
+}
+.card p {
+	font-size: 18px;
+	font-weight: 500;
+	color:#333;
+	margin-bottom:30px;
+}
+
+.card-sporty h2 {
+	color: #e04553;
+}
+.card-casual h2 {
+	color: #0d4da3;
+}
+.card-formal h2 {
+	color: #512b22;
+}
+.card a{
+	text-decoration:none;
+	color: #fff;
+	background-color:#333;
+	padding: 10px 20px;
+	border-radius: 5px;
+	fonto-size: 18px;
+}
+.card a:hover {
+	opacity: 0.9;
+}
+
+.card-sporty a {
+	background-color: #e04553;
+}
+.card-casual a {
+	background-color:#0d4da3;
+}
+.card-formal a {
+	background-color:#512b22;
+}
+.card-sporty {
+	background: #fff url('./images/sporty.png') no-repeat center right/200px;
 }
