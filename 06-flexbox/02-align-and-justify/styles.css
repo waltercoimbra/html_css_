@@ -8,12 +8,16 @@ body {
 	height:400px;
 	justify-content: center;/*flex-start, flex-end -- space-around, space-between, space-evenly*/
 	align-items: center; /*flex-start, flex-end, stretch*/
+	gap:10px;
 }
 .flex-item {
 	height:200px;
 	width:200px;
 	background-color:coral;
 	border:1px solid black;
+	border-radius:10px;
+	text-align:center;
+	box-shadow:0 4px 6px 2px;
 }
 .item-2 {
 	align-self: flex-end;
