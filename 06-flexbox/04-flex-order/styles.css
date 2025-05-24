@@ -10,10 +10,10 @@ body {
   background-color: coral;
   border: 1px solid black;
   padding: 30px;
-  flex: 1;
+  flex: 3;
 }
 .item-1 {
-  color:#efefef;
+  color: #efefef;
   order: 2;
 }
 .item-2 {
@@ -23,15 +23,14 @@ body {
   order: 3;
 }
 .item-4 {
-  order:6;
+  order: 6;
 }
 .item-5 {
-  order:5;
+  order: 5;
 }
 .item-6 {
   order: 4;
   background-color: azure;
   border-radius: 10px;
   flex: 3;
-  
 }
