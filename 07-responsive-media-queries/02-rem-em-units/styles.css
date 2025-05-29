@@ -5,5 +5,30 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+  font-size: 18px;
+}
+p {
+  font-size: 1.2rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table {
+  margin: 30px 10px;
+}
+th {
+  background-color: azure;
 }
