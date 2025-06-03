@@ -5,5 +5,32 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container h1 {
+  padding: 30px;
+}
+.verso {
+  background-color: coral;
+  width: 80%;
+  height: 70%;
+  padding: 20px;
+  box-shadow: 4px 6px 6px;
+  border-radius: 10px;
+}
+.refrao {
+  background-color: bisque;
+  padding: 20px;
+  width: 80%;
+  height: 70%;
+  box-shadow: 4px 6px 6px;
+  border-radius: 10px;
 }
