@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
 }
 .wraper {
-    height: 100vh;
+    min-height: 100vh;
     background:
         linear-gradient(to bottom, rgba(233, 64, 50, 0.8), rgba(71, 17, 116, 0.9)),
         url("../images/background.jpg") no-repeat center center;
@@ -38,4 +38,70 @@ body {
 }
 .header .header-right a:hover {
     color: purple;
+}
+/* Main Content */
+.main-content {
+    display: flex;
+    max-width: 1100px;
+    margin: 200px auto;
+    gap: 50px;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    padding: 0 40px;
+}
+.main-content form {
+    flex: 1;
+}
+.main-content .text-container {
+    flex: 1;
+}
+/* FORMULARIO */
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: 0;
+}
+.form-group textarea {
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+}
+/* button */
+.btn {
+    display: block;
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: 0;
+    background-color: #ff4032;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ff5c4d;
+}
+/* Text Container */
+.text-container h1 {
+    font-size: 50px;
+    margin: 50px 0 20px;
+    line-height: 1.2;
+}
+.text-container {
+    font-size: 18px;
 }
