@@ -6,3 +6,13 @@ img {
   max-width: 900px;
   margin: 70px auto;
 }
+img {
+  max-width: 100%;
+  /*filter:grayscale(60%); brightness, contrast, drop shadow
+   * hue-rotate, invert, opacity, saturate, sepia
+  filter: blur(5px);
+  filter: brightness(200%)
+  filter:contrast(30%)
+  filter: drop-shadow(10px 10px 5px lightgreen);*/
+  filter: hue-rotate(50deg) drop-shadow(10px 10px 10px); /*chain filters*/
+}
